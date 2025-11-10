@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "_id": "1",
+      "name": "Classic T-Shirt",
+      "price": 29.99,
+      "description": "Comfortable cotton t-shirt in classic style",
+      "rating": 4.5,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/sample/image/upload/v1/products/tshirt"
+        }
+      ],
+      "category": "Clothing",
+      "stock": 50,
+      "numOfReviews": 25,
+      "reviews": []
+    },
+    {
+      "_id": "2",
+      "name": "Denim Jeans",
+      "price": 79.99,
+      "description": "Premium quality denim jeans",
+      "rating": 4.8,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/sample/image/upload/v1/products/jeans"
+        }
+      ],
+      "category": "Clothing",
+      "stock": 30,
+      "numOfReviews": 18,
+      "reviews": []
+    },
+    {
+      "_id": "3",
+      "name": "Running Shoes",
+      "price": 89.99,
+      "description": "Lightweight running shoes with cushioning",
+      "rating": 4.6,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/sample/image/upload/v1/products/shoes"
+        }
+      ],
+      "category": "Footwear",
+      "stock": 25,
+      "numOfReviews": 32,
+      "reviews": []
+    },
+    {
+      "_id": "4",
+      "name": "Backpack",
+      "price": 49.99,
+      "description": "Durable backpack with laptop compartment",
+      "rating": 4.3,
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/sample/image/upload/v1/products/backpack"
+        }
+      ],
+      "category": "Accessories",
+      "stock": 40,
+      "numOfReviews": 15,
+      "reviews": []
+    }
+  ]
+}

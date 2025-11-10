@@ -1,0 +1,38 @@
+:root {
+  --wp--preset--color--primary: #EA1E63;
+  --wp--preset--color--secondary: #EA7E1E;
+  --wp--preset--color--primary-shade: #FFEEF4;
+  --wp--preset--color--light-color: #FFFFFE;
+  --wp--preset--color--black-color: #130107;
+  --wp--preset--color--heading-color: #0F0106;
+  --wp--preset--color--background: #FFFFFF;
+  --wp--preset--color--background-alt: #F9F9F9;
+  --wp--preset--color--foreground: #565555;
+  --wp--preset--color--meta-color: #C2C2C2;
+  --wp--preset--color--star-color: #0F0105;
+  --wp--preset--color--border-color: #E7E6E6;
+}
+
+html, body {
+  background: var(--wp--preset--color--background);
+  color: var(--wp--preset--color--foreground);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: var(--wp--preset--color--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--wp--preset--color--secondary);
+}
+
+button {
+  background: var(--wp--preset--color--heading-color);
+  color: var(--wp--preset--color--light-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--wp--preset--color--heading-color);
+}

@@ -1,0 +1,52 @@
+:root {
+  --fc-primary: #e31e63;
+  --fc-primary-600: #c31554;
+  --fc-secondary: #ea7e1e;
+  --fc-bg: #ffffff;
+  --fc-text: #2b2b2b;
+  --fc-muted: #6b6b6b;
+  --fc-border: #e7e6e6;
+}
+
+/***** Base *****/
+body.fc {
+  background: var(--fc-bg);
+  color: var(--fc-text);
+}
+
+.fc a { color: var(--fc-primary); text-decoration: none; }
+.fc a:hover { color: var(--fc-secondary); }
+
+/***** Buttons *****/
+.fc .fc-btn {
+  background: var(--fc-primary);
+  color: #fff;
+  border-radius: 999px;
+  padding: 10px 20px;
+  border: none;
+}
+.fc .fc-btn:hover { background: var(--fc-secondary); }
+
+/***** Cards *****/
+.fc .fc-card {
+  border: 1px solid var(--fc-border);
+  border-radius: 12px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.fc .fc-card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,.08); }
+
+/***** Price badges *****/
+.fc .fc-price del { color: var(--fc-primary); margin-right: 6px; }
+.fc .fc-price ins { text-decoration: none; }
+
+/***** Header/Nav helpers *****/
+.fc .fc-appbar { background: var(--fc-primary) !important; color: #fff !important; }
+
+/***** Carousel spacing (keep existing components working) *****/
+.fc .carousel .slide img { border-radius: 10px; }
+
+/***** Utilities *****/
+.fc .fc-grid { display: grid; gap: 16px; }
+.fc .fc-grid-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 900px) { .fc .fc-grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .fc .fc-grid-4 { grid-template-columns: 1fr; } }

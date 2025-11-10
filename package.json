@@ -1,0 +1,30 @@
+{
+  "name": "may_store",
+  "version": "1.0.0",
+  "description": "May Store - E-Commerce Shopping App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "node setup.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "shopping",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "May",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "mongodb": "^6.20.0"
+  }
+}

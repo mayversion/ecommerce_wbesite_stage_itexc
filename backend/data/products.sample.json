@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "description": "Comfortable over‑ear wireless headphones with noise isolation.",
+    "category": "electronics",
+    "stock": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1518443756511-a9bf3c689821?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "ratings": 4.5,
+    "numOfReviews": 23
+  },
+  {
+    "name": "Men's Basic T‑Shirt",
+    "price": 14.99,
+    "description": "Soft cotton crew neck t‑shirt.",
+    "category": "clothing",
+    "stock": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1520975922523-6a6c3f3f05a0?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "ratings": 4.2,
+    "numOfReviews": 8
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "price": 19.99,
+    "description": "Insulated bottle keeps drinks cold for 24 hours.",
+    "category": "sports",
+    "stock": 60,
+    "images": [
+      "https://images.unsplash.com/photo-1561214072-2b8e2a6f7b3b?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "ratings": 4.7,
+    "numOfReviews": 41
+  },
+  {
+    "name": "Decorative Throw Pillow",
+    "price": 24.99,
+    "description": "Cozy throw pillow for sofa or bed.",
+    "category": "home & garden",
+    "stock": 40,
+    "images": [
+      "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "ratings": 4.1,
+    "numOfReviews": 12
+  }
+]
