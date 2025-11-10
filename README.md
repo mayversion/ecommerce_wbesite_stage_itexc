@@ -123,7 +123,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **mayversion**
 - GitHub: [@mayversion](https://github.com/mayversion)
-- Email: maymehenni2004@gmail.com
+- Email: maymehenni1@gmail.com
 
 ## Acknowledgments
 
